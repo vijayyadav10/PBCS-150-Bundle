@@ -1,0 +1,64 @@
+{
+    "microservices": [
+        {
+            "name": "ent-strapi-bundle",
+            "stack": "spring-boot",
+            "healthCheckPath": "/actuator/health",
+            "dbms": "none",
+            "ingressPath": "/entando-template-api",
+            "roles": [
+                "et-first-role",
+                "et-second-role"
+            ]
+        }
+    ],
+    "microfrontends": [
+        {
+            "name": "et-strapi-template-widget",
+            "customElement": "et-strapi-template-app",
+            "stack": "react",
+            "type": "app-builder",
+            "group": "free",
+            "nav": [
+                {
+                    "label": {
+                        "en": "strapi content template",
+                        "it": "modello di contenuto strapi"
+                    },
+                    "target": "internal",
+                    "url": "/strapi-bundle"
+                }
+            ],
+            "slot": "content",
+            "paths": [
+                "/strapi-bundle"
+            ],
+            "apiClaims": [
+                {
+                    "name": "int-api",
+                    "type": "internal",
+                    "serviceName": "ent-strapi-bundle"
+                }
+            ]
+        }
+    ],
+    "svc": [
+        "keycloak"
+    ],
+    "global": {
+        "nav": [
+            {
+                "label": {
+                    "en": "Entando Developers",
+                    "it": "Entando Developers"
+                },
+                "target": "external",
+                "url": "https://developer.entando.com/"
+            }
+        ]
+    },
+    "name": "ent-strapi-app",
+    "version": "2.1.0",
+    "description": "ent-strapi description",
+    "type": "bundle"
+}

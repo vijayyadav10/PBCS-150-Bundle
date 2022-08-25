@@ -1,0 +1,15 @@
+/home/gagans/Music/PBCS-150/PBCS-150/ent-strapi/microservices/ent-strapi-bundle/src/main/java/com/entando/template/persistence/EntTemplateRepository.java
+/home/gagans/Music/PBCS-150/PBCS-150/ent-strapi/microservices/ent-strapi-bundle/src/main/java/org/keycloak/adapters/springboot/KeycloakSpringBootProperties.java
+/home/gagans/Music/PBCS-150/PBCS-150/ent-strapi/microservices/ent-strapi-bundle/src/main/java/com/entando/template/config/SecurityConfig.java
+/home/gagans/Music/PBCS-150/PBCS-150/ent-strapi/microservices/ent-strapi-bundle/src/main/java/com/entando/template/exception/TemplateNotFoundException.java
+/home/gagans/Music/PBCS-150/PBCS-150/ent-strapi/microservices/ent-strapi-bundle/src/main/java/com/entando/template/config/ApplicationConstants.java
+/home/gagans/Music/PBCS-150/PBCS-150/ent-strapi/microservices/ent-strapi-bundle/src/main/java/com/entando/template/rest/EntTemplateController.java
+/home/gagans/Music/PBCS-150/PBCS-150/ent-strapi/microservices/ent-strapi-bundle/src/main/java/com/entando/template/util/PagedContent.java
+/home/gagans/Music/PBCS-150/PBCS-150/ent-strapi/microservices/ent-strapi-bundle/src/main/java/com/entando/template/persistence/entity/EntTemplate.java
+/home/gagans/Music/PBCS-150/PBCS-150/ent-strapi/microservices/ent-strapi-bundle/src/main/java/com/entando/template/config/OpenApiConfig.java
+/home/gagans/Music/PBCS-150/PBCS-150/ent-strapi/microservices/ent-strapi-bundle/src/main/java/com/entando/template/response/ErrorResponse.java
+/home/gagans/Music/PBCS-150/PBCS-150/ent-strapi/microservices/ent-strapi-bundle/src/main/java/com/entando/template/service/EntTamplateService.java
+/home/gagans/Music/PBCS-150/PBCS-150/ent-strapi/microservices/ent-strapi-bundle/src/main/java/com/entando/template/response/TemplateResponseView.java
+/home/gagans/Music/PBCS-150/PBCS-150/ent-strapi/microservices/ent-strapi-bundle/src/main/java/com/entando/template/exception/GlobalExceptionHandler.java
+/home/gagans/Music/PBCS-150/PBCS-150/ent-strapi/microservices/ent-strapi-bundle/src/main/java/com/entando/template/request/TemplateRequestView.java
+/home/gagans/Music/PBCS-150/PBCS-150/ent-strapi/microservices/ent-strapi-bundle/src/main/java/com/entando/template/EntandoMSApplication.java
